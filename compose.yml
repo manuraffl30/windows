@@ -9,9 +9,6 @@ services:
       HV: "N"
       BOOT_MODE: "windows_plain"
 
-    volumes:
-      - "/home/user/lwtram1/DockerShare:/storage/share"
-
     devices:
       - /dev/kvm
 
